@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Slab", serif;
+}
+.container {
+  width: 70%;
+  margin: 0px auto;
+}
+/* Header Start*/
+
+header {
+  padding: 28px 0px;
+  border-bottom: 0.1px solid #ccc;
+}
+header .hed-nav {
+  width: 30%;
+  margin: 0px auto;
+}
+header .navbar {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+header .navbar a:hover {
+  color: rgb(236, 158, 158);
+  text-decoration: underline;
+}
+/*Header End*/
+
+/*Section Image Start*/
+.row-cub .row-1,
+.row-cub .row-2,
+.row-cub .row-3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-cub .card {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0.5px 0.5px #ccc;
+}
+.row-cub .image {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.row-cub .info {
+  text-align: center;
+  padding-top: 40px;
+}
+.row-cub .info .category {
+  text-transform: uppercase;
+  color: #aca8a8;
+  font-weight: 700;
+}
+.row-cub .info .title {
+  text-transform: capitalize;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.row-cub .info .price {
+  color: rgb(140, 222, 196);
+  font-weight: 700;
+  font-size: 25px;
+}
+.row-1 .card-n {
+  position: relative;
+}
+.row-1 .card-n .info {
+  position: absolute;
+  left: 60px;
+  bottom: 200px;
+  color: white;
+  line-height: 30px;
+}
+.row-1 .card-n .info .title {
+  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.row-1 .card-n .price {
+  color: white;
+}
+.row-1 .card-n .label {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  transform: rotate(-45deg);
+  bottom: 470px;
+  left: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.card-n .info span {
+  text-decoration: line-through;
+}
+.row-2 .card-bordo {
+  width: 500px;
+  height: 500px;
+  background-color: #df4b63;
+  position: relative;
+}
+.card-bordo .number .brief {
+  padding-left: 150px;
+  padding-top: 220px;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  opacity: 0.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-bordo .minus {
+  padding-left: 205px;
+  font-size: 80px;
+  color: white;
+  font-weight: 300;
+}
+.card-bordo .slogan {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+}
+.row-2 .card-bordo .title {
+  position: absolute;
+  font-size: 110px;
+  opacity: 0.5;
+  color: white;
+  left: 120px;
+  top: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.row-2 .card-bordo .percentage {
+  position: absolute;
+  font-size: 110px;
+  opacity: 0.4;
+  color: black;
+  left: 110px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.more {
+  display: flex;
+  background-color: rgb(246, 244, 239);
+  justify-content: center;
+  padding: 12px 0px;
+  font-weight: 700;
+  font-size: 25px;
+}
+/*Section Image End*/
+
+/*Section Just Start*/
+.just {
+  padding: 80px 0px;
+  border-top: 0.1px solid #ccc;
+  border-bottom: 0.1px solid #ccc;
+}
+.just .just-inner {
+  width: 75%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.just .just-inner .span-form {
+  padding: 0px 10px;
+}
+.just .just-inner .span-form label {
+  margin-left: 50px;
+  font-size: 25px;
+}
+.just .just-inner .span-form input {
+  width: 300px;
+  height: 40px;
+  padding-left: 14px;
+  letter-spacing: 0.5px;
+  background-color: rgb(246, 244, 239);
+  border: 0.1px solid #ccc;
+  font-size: 16px;
+}
+.just .just-inner .span-form button {
+  width: 100px;
+  height: 40px;
+  padding: 8px;
+  letter-spacing: 1px;
+  background-color: rgb(140, 222, 196);
+  color: white;
+  font-size: 16px;
+}
+.just-inner .just-icons i {
+  padding: 0px 6px;
+  font-size: 50px;
+}
+/*Section Just End*/
+
+/*Footer Start*/
+.about-footer {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(37, 36, 36);
+  color: white;
+  padding: 40px 0px 40px 0px;
+}
+.about-title {
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.about-title h2 {
+  width: 40%;
+  font-size: 40px;
+}
+.about-title p {
+  letter-spacing: 0.8px;
+  line-height: 25px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-nav {
+  display: flex;
+  margin: 0px auto;
+  width: 48%;
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.about-nav li,
+.pover {
+  padding: 0px 45px;
+}
+.about-nav a {
+  text-decoration: underline;
+}
+.about-nav .fnav a:hover {
+  color: rgb(167, 238, 215);
+}
+.about-nav .pover span {
+  font-size: 20px;
+}
+.about-nav .pover a:hover {
+  color: rgb(167, 238, 215);
+  text-decoration: underline;
+}
+.about-nav .pover .fa-cc-mastercard {
+  font-size: 30px;
+}
+/*Footer End*/
