@@ -79,7 +79,7 @@ header .navbar a:hover {
   line-height: 30px;
 }
 .row-1 .card-n .info .title {
-  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -128,7 +128,7 @@ header .navbar a:hover {
   color: white;
   letter-spacing: 1px;
   font-weight: 500;
-  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .row-2 .card-bordo .title {
   position: absolute;
@@ -149,7 +149,7 @@ header .navbar a:hover {
 }
 .more {
   display: flex;
-  background-color: rgb(246, 244, 239);
+  background-color: rgba(240, 245, 255, 0.4);
   justify-content: center;
   padding: 12px 0px;
   font-weight: 700;
@@ -182,7 +182,7 @@ header .navbar a:hover {
   height: 40px;
   padding-left: 14px;
   letter-spacing: 0.5px;
-  background-color: rgb(246, 244, 239);
+  background-color: rgba(240, 245, 255, 0.4);
   border: 0.1px solid #ccc;
   font-size: 16px;
 }
@@ -209,7 +209,7 @@ header .navbar a:hover {
   flex-flow: column;
   background-color: rgb(37, 36, 36);
   color: white;
-  padding: 40px 0px 40px 0px;
+  padding: 60px;
 }
 .about-title {
   width: 80%;
@@ -232,24 +232,24 @@ header .navbar a:hover {
   margin: 0px auto;
   width: 48%;
   line-height: 40px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 .about-nav li,
 .pover {
-  padding: 0px 45px;
+  padding: 0px 42px;
 }
 .about-nav a {
   text-decoration: underline;
 }
 .about-nav .fnav a:hover {
-  color: rgb(167, 238, 215);
+  color: rgb(236, 158, 158);
 }
 .about-nav .pover span {
   font-size: 20px;
 }
 .about-nav .pover a:hover {
-  color: rgb(167, 238, 215);
+  color: rgb(236, 158, 158);
   text-decoration: underline;
 }
 .about-nav .pover .fa-cc-mastercard {
