@@ -230,14 +230,14 @@ header .navbar a:hover {
 .about-nav {
   display: flex;
   margin: 0px auto;
-  width: 48%;
+  width:52%;
   line-height: 40px;
   font-size: 20px;
   font-weight: 700;
 }
 .about-nav li,
 .pover {
-  padding: 0px 42px;
+  padding: 0px 40px;
 }
 .about-nav a {
   text-decoration: underline;
