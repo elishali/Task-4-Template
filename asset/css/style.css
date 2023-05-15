@@ -33,17 +33,17 @@ header .navbar a:hover {
 .row-cub {
   border-top: 0.5px solid #ccc;
   border-bottom: 0.5px solid #ccc;
+  width: 100%;
 }
 .row-cub .row-1,
 .row-cub .row-2,
 .row-cub .row-3 {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 .row-cub .card {
   width: calc(100% / 3);
-   height: 500px;
+  height: 500px;
 }
 .row-cub .image {
   display: flex;
@@ -93,7 +93,7 @@ header .navbar a:hover {
   position: absolute;
   background-color: black;
   padding: 50px 50px 15px 50px;
-  color:white;
+  color: white;
   text-transform: uppercase;
   transform: rotate(-45deg);
   top: -20px;
