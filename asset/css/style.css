@@ -92,12 +92,12 @@ header .navbar a:hover {
 .row-1 .card-n .label {
   position: absolute;
   background-color: black;
-  padding: 40px 40px 20px 40px;
+  padding: 50px 50px 15px 50px;
   color:white;
   text-transform: uppercase;
   transform: rotate(-45deg);
-  top: -3%;
-  left: -9%;
+  top: -20px;
+  left: -50px;
   font-size: 14px;
   font-weight: 700;
 }
