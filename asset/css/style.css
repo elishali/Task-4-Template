@@ -93,10 +93,10 @@ header .navbar a:hover {
   position: absolute;
   background-color: black;
   padding: 40px 40px 20px 40px;
-  color: #fff;
+  color:white;
   text-transform: uppercase;
   transform: rotate(-45deg);
-  top: -15px;
+  top: -3%;
   left: -9%;
   font-size: 14px;
   font-weight: 700;
